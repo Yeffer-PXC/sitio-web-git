@@ -1,0 +1,2613 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GitHub Pages | Grupo 5</title>
+
+    <meta name="description"
+          content="Proyecto académico sobre GitHub Pages desarrollado por el Grupo 5 para la materia Aplicaciones Web.">
+
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet"
+          href="css/estilos.css">
+
+</head>
+
+<body>
+
+<div class="contenedor">
+
+<!--=====================================
+SIDEBAR
+======================================-->
+
+<aside class="sidebar">
+
+    <div class="logo">
+
+        <i class="bi bi-github"></i>
+
+    </div>
+
+    <h3>GitHub Pages</h3>
+
+    <p class="grupo">
+
+        Grupo 5<br>
+
+        Aplicaciones Web
+
+    </p>
+
+    <hr>
+
+    <button class="menu activo" data-seccion="inicio">
+
+        <i class="bi bi-house-door-fill"></i>
+
+        Inicio
+
+    </button>
+
+    <button class="menu" data-seccion="quees">
+
+        <i class="bi bi-book-fill"></i>
+
+        ¿Qué es?
+
+    </button>
+
+    <button class="menu" data-seccion="caracteristicas">
+
+        <i class="bi bi-stars"></i>
+
+        Características
+
+    </button>
+
+    <button class="menu" data-seccion="comparacion">
+
+        <i class="bi bi-bar-chart-fill"></i>
+
+        Comparación
+
+    </button>
+
+    <button class="menu" data-seccion="tutorial">
+
+        <i class="bi bi-journal-code"></i>
+
+        Tutorial
+
+    </button>
+
+    <button class="menu" data-seccion="evidencias">
+
+        <i class="bi bi-images"></i>
+
+        Evidencias
+
+    </button>
+
+    <button class="menu" data-seccion="faq">
+
+        <i class="bi bi-question-circle-fill"></i>
+
+        FAQ
+
+    </button>
+
+    <button class="menu" data-seccion="conclusiones">
+
+        <i class="bi bi-file-earmark-text-fill"></i>
+
+        Conclusiones
+
+    </button>
+
+    <button class="menu" data-seccion="integrantes">
+
+        <i class="bi bi-people-fill"></i>
+
+        Integrantes
+
+    </button>
+
+</aside>
+
+<!--=====================================
+CONTENIDO
+======================================-->
+
+<main class="contenido">
+
+<!--=====================================
+INICIO
+======================================-->
+
+<section id="inicio" class="seccion activa fade-up">
+
+<div class="hero-dashboard">
+
+<div class="hero-texto">
+
+<span class="badge bg-primary mb-3">
+
+Aplicaciones Web • Grupo 5
+
+</span>
+
+<h1>
+
+GitHub Pages
+
+</h1>
+
+<p class="subtitulo">
+
+Publica sitios web estáticos de forma rápida, gratuita y segura.
+
+</p>
+
+<p>
+
+GitHub Pages es un servicio de alojamiento web gratuito proporcionado por GitHub que permite publicar sitios web estáticos directamente desde un repositorio. Gracias a su integración con Git y GitHub, cualquier cambio realizado en el proyecto puede desplegarse automáticamente, facilitando el desarrollo y mantenimiento de páginas personales, documentación técnica, portafolios y proyectos académicos.
+
+</p>
+
+<div class="mt-4">
+
+<button class="btn btn-primary btn-lg"
+
+onclick="document.querySelector('[data-seccion=quees]').click();">
+
+Comenzar
+
+</button>
+
+</div>
+
+<div class="mt-4">
+
+<span class="badge bg-success me-2">
+
+<i class="bi bi-check-circle-fill"></i>
+
+Hosting Gratuito
+
+</span>
+
+<span class="badge bg-info text-dark me-2">
+
+HTTPS
+
+</span>
+
+<span class="badge bg-warning text-dark">
+
+Deploy Automático
+
+</span>
+
+</div>
+
+</div>
+
+<div class="hero-imagen">
+
+<i class="bi bi-cloud-arrow-up-fill"></i>
+
+</div>
+
+</div>
+
+<!-- Tarjetas -->
+
+<div class="row g-4 mt-4">
+
+<div class="col-md-3">
+
+<div class="card-info">
+
+<i class="bi bi-globe2"></i>
+
+<h3>100%</h3>
+
+<p>
+
+Hosting Gratuito
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="card-info">
+
+<i class="bi bi-github"></i>
+
+<h3>Git</h3>
+
+<p>
+
+Control de Versiones
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="card-info">
+
+<i class="bi bi-lock-fill"></i>
+
+<h3>HTTPS</h3>
+
+<p>
+
+Seguridad Automática
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-3">
+
+<div class="card-info">
+
+<i class="bi bi-lightning-charge-fill"></i>
+
+<h3>Deploy</h3>
+
+<p>
+
+Actualización Instantánea
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- Beneficios -->
+
+<div class="row mt-5">
+
+<div class="col-lg-6">
+
+<div class="card-custom">
+
+<h3>
+
+<i class="bi bi-stars text-primary"></i>
+
+¿Por qué elegir GitHub Pages?
+
+</h3>
+
+<p>
+
+GitHub Pages elimina la necesidad de contratar un servidor para publicar un sitio web estático. Su integración con GitHub facilita la colaboración entre desarrolladores y permite que cada actualización del repositorio se publique automáticamente, reduciendo tiempos y simplificando el proceso de despliegue.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-6">
+
+<div class="card-custom">
+
+<h3>
+
+<i class="bi bi-check2-square text-success"></i>
+
+Principales beneficios
+
+</h3>
+
+<ul>
+
+<li>Servicio completamente gratuito.</li>
+
+<li>Integración directa con GitHub.</li>
+
+<li>HTTPS habilitado automáticamente.</li>
+
+<li>Compatible con dominios personalizados.</li>
+
+<li>Ideal para proyectos académicos y portafolios.</li>
+
+<li>Despliegue automático mediante Git.</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--=====================================
+¿QUÉ ES GITHUB PAGES?
+======================================-->
+
+<section id="quees" class="seccion fade-up">
+
+    <div class="hero-dashboard">
+
+        <div class="hero-texto">
+
+            <span class="badge bg-success mb-3">
+
+                Introducción
+
+            </span>
+
+            <h1>¿Qué es GitHub Pages?</h1>
+
+            <p class="subtitulo">
+
+                Una plataforma gratuita para publicar sitios web estáticos directamente desde un repositorio de GitHub.
+
+            </p>
+
+            <p>
+
+                GitHub Pages es un servicio de alojamiento web gratuito desarrollado por GitHub que permite publicar páginas HTML, CSS y JavaScript sin necesidad de contratar un servidor. Cada proyecto puede desplegarse directamente desde un repositorio, facilitando la distribución de sitios personales, documentación, portafolios y proyectos académicos.
+
+            </p>
+
+            <p>
+
+                Gracias a su integración con Git, cualquier cambio realizado en el código puede reflejarse automáticamente en el sitio web mediante un nuevo despliegue.
+
+            </p>
+
+        </div>
+
+        <div class="hero-imagen">
+
+            <i class="bi bi-github"></i>
+
+        </div>
+
+    </div>
+
+    <!-- HISTORIA -->
+
+    <div class="card-custom mt-5">
+
+        <h2>
+
+            <i class="bi bi-clock-history text-primary"></i>
+
+            Breve Historia
+
+        </h2>
+
+        <p>
+
+            GitHub Pages fue lanzado por GitHub con el objetivo de ofrecer una solución sencilla para publicar sitios web estáticos directamente desde un repositorio. Con el paso del tiempo se convirtió en una herramienta ampliamente utilizada por desarrolladores, estudiantes y organizaciones para compartir documentación técnica, portafolios profesionales y proyectos de código abierto.
+
+        </p>
+
+    </div>
+
+    <!-- FUNCIONAMIENTO -->
+
+    <div class="card-custom mt-4">
+
+        <h2>
+
+            <i class="bi bi-cpu-fill text-success"></i>
+
+            ¿Cómo funciona?
+
+        </h2>
+
+        <p>
+
+            El funcionamiento de GitHub Pages es bastante sencillo:
+
+        </p>
+
+        <div class="row text-center mt-4">
+
+            <div class="col-md-3">
+
+                <div class="card-info">
+
+                    <i class="bi bi-code-slash"></i>
+
+                    <h3>1</h3>
+
+                    <p>Se desarrolla el sitio utilizando HTML, CSS y JavaScript.</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="card-info">
+
+                    <i class="bi bi-upload"></i>
+
+                    <h3>2</h3>
+
+                    <p>Los archivos se suben a un repositorio de GitHub.</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="card-info">
+
+                    <i class="bi bi-gear-fill"></i>
+
+                    <h3>3</h3>
+
+                    <p>Se habilita GitHub Pages desde la configuración del repositorio.</p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3">
+
+                <div class="card-info">
+
+                    <i class="bi bi-globe"></i>
+
+                    <h3>4</h3>
+
+                    <p>El sitio queda disponible mediante una URL pública.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- FLUJO -->
+
+    <div class="card-custom mt-5">
+
+        <h2>
+
+            <i class="bi bi-diagram-3-fill text-danger"></i>
+
+            Flujo de Publicación
+
+        </h2>
+
+        <div class="row text-center mt-5">
+
+            <div class="col">
+
+                <i class="bi bi-laptop display-4 text-primary"></i>
+
+                <h5 class="mt-3">Desarrollar</h5>
+
+            </div>
+
+            <div class="col-auto d-flex align-items-center">
+
+                <i class="bi bi-arrow-right display-6"></i>
+
+            </div>
+
+            <div class="col">
+
+                <i class="bi bi-github display-4 text-dark"></i>
+
+                <h5 class="mt-3">Repositorio</h5>
+
+            </div>
+
+            <div class="col-auto d-flex align-items-center">
+
+                <i class="bi bi-arrow-right display-6"></i>
+
+            </div>
+
+            <div class="col">
+
+                <i class="bi bi-cloud-upload-fill display-4 text-success"></i>
+
+                <h5 class="mt-3">GitHub Pages</h5>
+
+            </div>
+
+            <div class="col-auto d-flex align-items-center">
+
+                <i class="bi bi-arrow-right display-6"></i>
+
+            </div>
+
+            <div class="col">
+
+                <i class="bi bi-globe-americas display-4 text-info"></i>
+
+                <h5 class="mt-3">Sitio Web</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- DATOS -->
+
+    <div class="row mt-5">
+
+        <div class="col-lg-6">
+
+            <div class="card-custom">
+
+                <h3>
+
+                    <i class="bi bi-lightbulb-fill text-warning"></i>
+
+                    ¿Por qué es tan utilizado?
+
+                </h3>
+
+                <ul>
+
+                    <li>Es completamente gratuito.</li>
+
+                    <li>No requiere conocimientos de servidores.</li>
+
+                    <li>Se integra automáticamente con Git.</li>
+
+                    <li>Es ideal para estudiantes y desarrolladores.</li>
+
+                    <li>Permite trabajar colaborativamente.</li>
+
+                    <li>Tiene soporte para HTTPS.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+            <div class="card-custom">
+
+                <h3>
+
+                    <i class="bi bi-info-circle-fill text-primary"></i>
+
+                    Datos interesantes
+
+                </h3>
+
+                <p>
+
+                    Actualmente miles de proyectos de código abierto utilizan GitHub Pages para publicar documentación técnica, manuales, blogs y sitios institucionales.
+
+                </p>
+
+                <p>
+
+                    Además, al estar integrado con GitHub, cada actualización realizada mediante Git puede publicarse automáticamente sin necesidad de volver a subir archivos manualmente.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--=====================================
+CARACTERÍSTICAS
+======================================-->
+
+<section id="caracteristicas" class="seccion fade-up">
+
+    <div class="text-center mb-5">
+
+        <span class="badge bg-primary mb-3">
+            Funcionalidades
+        </span>
+
+        <h1>Características de GitHub Pages</h1>
+
+        <p class="subtitulo">
+
+            GitHub Pages ofrece una serie de herramientas que facilitan la publicación y administración de sitios web estáticos de manera rápida y segura.
+
+        </p>
+
+    </div>
+
+    <!-- CARACTERÍSTICAS -->
+
+    <div class="row g-4">
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card-info">
+
+                <i class="bi bi-globe2"></i>
+
+                <h3>Hosting Gratuito</h3>
+
+                <p>
+
+                    Publica sitios web sin pagar por servidores o servicios de alojamiento.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card-info">
+
+                <i class="bi bi-github"></i>
+
+                <h3>Integración con Git</h3>
+
+                <p>
+
+                    Cada actualización realizada en GitHub puede desplegarse automáticamente.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card-info">
+
+                <i class="bi bi-lock-fill"></i>
+
+                <h3>HTTPS Automático</h3>
+
+                <p>
+
+                    Todos los sitios publicados cuentan con certificados SSL gratuitos.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card-info">
+
+                <i class="bi bi-arrow-repeat"></i>
+
+                <h3>Deploy Continuo</h3>
+
+                <p>
+
+                    Cada cambio realizado en el repositorio puede reflejarse automáticamente en el sitio.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card-info">
+
+                <i class="bi bi-window"></i>
+
+                <h3>Compatible con HTML, CSS y JS</h3>
+
+                <p>
+
+                    Ideal para desarrollar sitios estáticos utilizando tecnologías web estándar.
+
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+
+            <div class="card-info">
+
+                <i class="bi bi-link-45deg"></i>
+
+                <h3>Dominios Personalizados</h3>
+
+                <p>
+
+                    Permite utilizar un dominio propio para ofrecer una imagen más profesional.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- VENTAJAS Y LIMITACIONES -->
+
+    <div class="row mt-5">
+
+        <div class="col-lg-6">
+
+            <div class="card-custom">
+
+                <h2>
+
+                    <i class="bi bi-check-circle-fill text-success"></i>
+
+                    Ventajas
+
+                </h2>
+
+                <ul>
+
+                    <li>Servicio completamente gratuito.</li>
+
+                    <li>Configuración sencilla.</li>
+
+                    <li>Actualizaciones automáticas mediante Git.</li>
+
+                    <li>Ideal para proyectos académicos.</li>
+
+                    <li>HTTPS incluido.</li>
+
+                    <li>Excelente integración con GitHub.</li>
+
+                    <li>Fácil colaboración entre desarrolladores.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+            <div class="card-custom">
+
+                <h2>
+
+                    <i class="bi bi-exclamation-triangle-fill text-warning"></i>
+
+                    Limitaciones
+
+                </h2>
+
+                <ul>
+
+                    <li>No permite ejecutar código del lado del servidor.</li>
+
+                    <li>No soporta bases de datos directamente.</li>
+
+                    <li>Solo funciona con sitios estáticos.</li>
+
+                    <li>Algunas funciones avanzadas requieren otros servicios.</li>
+
+                    <li>No reemplaza un hosting para aplicaciones dinámicas.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CASOS DE USO -->
+
+    <div class="card-custom mt-5">
+
+        <h2>
+
+            <i class="bi bi-lightbulb-fill text-warning"></i>
+
+            Casos de Uso
+
+        </h2>
+
+        <div class="row mt-4">
+
+            <div class="col-md-3 text-center">
+
+                <i class="bi bi-person-workspace display-4 text-primary"></i>
+
+                <h5 class="mt-3">Portafolios</h5>
+
+                <p>
+
+                    Publicación de currículums y proyectos personales.
+
+                </p>
+
+            </div>
+
+            <div class="col-md-3 text-center">
+
+                <i class="bi bi-journal-text display-4 text-success"></i>
+
+                <h5 class="mt-3">Documentación</h5>
+
+                <p>
+
+                    Manuales y documentación técnica.
+
+                </p>
+
+            </div>
+
+            <div class="col-md-3 text-center">
+
+                <i class="bi bi-mortarboard-fill display-4 text-danger"></i>
+
+                <h5 class="mt-3">Educación</h5>
+
+                <p>
+
+                    Proyectos universitarios y trabajos académicos.
+
+                </p>
+
+            </div>
+
+            <div class="col-md-3 text-center">
+
+                <i class="bi bi-building display-4 text-info"></i>
+
+                <h5 class="mt-3">Empresas</h5>
+
+                <p>
+
+                    Sitios informativos y documentación interna.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- TECNOLOGÍAS -->
+
+    <div class="card-custom mt-5">
+
+        <h2>
+
+            <i class="bi bi-code-slash text-primary"></i>
+
+            Tecnologías Compatibles
+
+        </h2>
+
+        <div class="row text-center mt-4">
+
+            <div class="col">
+
+                <i class="bi bi-filetype-html display-3 text-danger"></i>
+
+                <h5 class="mt-3">HTML5</h5>
+
+            </div>
+
+            <div class="col">
+
+                <i class="bi bi-filetype-css display-3 text-primary"></i>
+
+                <h5 class="mt-3">CSS3</h5>
+
+            </div>
+
+            <div class="col">
+
+                <i class="bi bi-filetype-js display-3 text-warning"></i>
+
+                <h5 class="mt-3">JavaScript</h5>
+
+            </div>
+
+            <div class="col">
+
+                <i class="bi bi-bootstrap-fill display-3 text-purple"></i>
+
+                <h5 class="mt-3">Bootstrap</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--=====================================
+COMPARACIÓN
+======================================-->
+
+<section id="comparacion" class="seccion fade-up">
+
+<div class="text-center mb-5">
+
+<span class="badge bg-danger mb-3">
+
+Comparativa
+
+</span>
+
+<h1>
+
+GitHub Pages vs Netlify vs Vercel
+
+</h1>
+
+<p class="subtitulo">
+
+Comparación entre tres de las plataformas más utilizadas para publicar aplicaciones web.
+
+</p>
+
+</div>
+
+<!-- TARJETAS -->
+
+<div class="row g-4">
+
+<div class="col-lg-4">
+
+<div class="card-info">
+
+<i class="bi bi-github display-2"></i>
+
+<h2 class="mt-3">
+
+GitHub Pages
+
+</h2>
+
+<p>
+
+Ideal para sitios web estáticos, documentación, proyectos académicos y portafolios profesionales.
+
+</p>
+
+<span class="badge bg-success">
+
+Recomendado
+
+</span>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="card-info">
+
+<i class="bi bi-cloud-fill display-2 text-info"></i>
+
+<h2 class="mt-3">
+
+Netlify
+
+</h2>
+
+<p>
+
+Especializado en aplicaciones Frontend modernas con integración continua y funciones serverless.
+
+</p>
+
+<span class="badge bg-info">
+
+Frontend
+
+</span>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="card-info">
+
+<i class="bi bi-lightning-charge-fill display-2 text-warning"></i>
+
+<h2 class="mt-3">
+
+Vercel
+
+</h2>
+
+<p>
+
+Plataforma optimizada para aplicaciones desarrolladas con React, Next.js y otros frameworks modernos.
+
+</p>
+
+<span class="badge bg-warning text-dark">
+
+Frameworks
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- TABLA -->
+
+<div class="card-custom mt-5">
+
+<h2>
+
+<i class="bi bi-table"></i>
+
+Comparación General
+
+</h2>
+
+<div class="table-responsive mt-4">
+
+<table class="table table-hover align-middle">
+
+<thead class="table-primary">
+
+<tr>
+
+<th>Característica</th>
+
+<th>GitHub Pages</th>
+
+<th>Netlify</th>
+
+<th>Vercel</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>Hosting Gratuito</td>
+
+<td>✅</td>
+
+<td>✅</td>
+
+<td>✅</td>
+
+</tr>
+
+<tr>
+
+<td>HTTPS Automático</td>
+
+<td>✅</td>
+
+<td>✅</td>
+
+<td>✅</td>
+
+</tr>
+
+<tr>
+
+<td>Deploy Automático</td>
+
+<td>✅</td>
+
+<td>✅</td>
+
+<td>✅</td>
+
+</tr>
+
+<tr>
+
+<td>Dominios Personalizados</td>
+
+<td>✅</td>
+
+<td>✅</td>
+
+<td>✅</td>
+
+</tr>
+
+<tr>
+
+<td>Funciones Serverless</td>
+
+<td>❌</td>
+
+<td>✅</td>
+
+<td>✅</td>
+
+</tr>
+
+<tr>
+
+<td>Ideal para HTML/CSS/JS</td>
+
+<td>⭐⭐⭐⭐⭐</td>
+
+<td>⭐⭐⭐⭐</td>
+
+<td>⭐⭐⭐⭐</td>
+
+</tr>
+
+<tr>
+
+<td>Integración con GitHub</td>
+
+<td>⭐⭐⭐⭐⭐</td>
+
+<td>⭐⭐⭐⭐⭐</td>
+
+<td>⭐⭐⭐⭐⭐</td>
+
+</tr>
+
+<tr>
+
+<td>Facilidad de Uso</td>
+
+<td>⭐⭐⭐⭐⭐</td>
+
+<td>⭐⭐⭐⭐</td>
+
+<td>⭐⭐⭐⭐</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+</div>
+
+</div>
+
+<!-- ¿CUÁNDO USAR? -->
+
+<div class="row mt-5">
+
+<div class="col-lg-4">
+
+<div class="card-custom">
+
+<h3>
+
+<i class="bi bi-mortarboard-fill text-primary"></i>
+
+GitHub Pages
+
+</h3>
+
+<p>
+
+Recomendado para estudiantes, proyectos universitarios, documentación, páginas personales y portafolios.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="card-custom">
+
+<h3>
+
+<i class="bi bi-window-stack text-success"></i>
+
+Netlify
+
+</h3>
+
+<p>
+
+Ideal para aplicaciones Frontend con formularios, automatización y funciones adicionales.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="card-custom">
+
+<h3>
+
+<i class="bi bi-lightning-fill text-warning"></i>
+
+Vercel
+
+</h3>
+
+<p>
+
+Perfecto para proyectos desarrollados con React, Next.js y aplicaciones modernas.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- CONCLUSIÓN -->
+
+<div class="card-custom mt-5">
+
+<h2>
+
+<i class="bi bi-award-fill text-warning"></i>
+
+Conclusión de la Comparativa
+
+</h2>
+
+<p>
+
+Las tres plataformas ofrecen alojamiento gratuito y despliegue automático, pero cada una está orientada a necesidades diferentes. GitHub Pages destaca por su simplicidad, integración con GitHub y facilidad de uso, convirtiéndose en una excelente opción para proyectos académicos, documentación técnica y sitios web estáticos. Netlify y Vercel incorporan herramientas más avanzadas, especialmente para aplicaciones modernas y proyectos con mayor complejidad.
+
+</p>
+
+</div>
+
+</section>
+
+<!--=====================================
+TUTORIAL
+======================================-->
+
+<section id="tutorial" class="seccion fade-up">
+
+    <div class="text-center mb-5">
+
+        <span class="badge bg-success mb-3">
+
+            Guía Paso a Paso
+
+        </span>
+
+        <h1>
+
+            Tutorial para Publicar un Sitio en GitHub Pages
+
+        </h1>
+
+        <p class="subtitulo">
+
+            Aprende cómo publicar un sitio web estático utilizando GitHub Pages de forma sencilla.
+
+        </p>
+
+    </div>
+
+    <!-- INTRODUCCIÓN -->
+
+    <div class="card-custom">
+
+        <h2>
+
+            <i class="bi bi-book-half text-primary"></i>
+
+            Objetivo
+
+        </h2>
+
+        <p>
+
+            El siguiente procedimiento describe los pasos necesarios para publicar un sitio web estático utilizando GitHub Pages. Este proceso permite alojar páginas HTML, CSS y JavaScript de forma gratuita, aprovechando la infraestructura de GitHub para realizar despliegues automáticos.
+
+        </p>
+
+    </div>
+
+    <!-- TIMELINE -->
+
+    <div class="card-custom mt-5">
+
+        <h2>
+
+            <i class="bi bi-diagram-3-fill text-success"></i>
+
+            Proceso de Publicación
+
+        </h2>
+
+        <div class="timeline mt-5">
+
+            <div class="timeline-item">
+
+                <h5>
+
+                    Paso 1 — Crear una cuenta en GitHub
+
+                </h5>
+
+                <p>
+
+                    Registrarse en GitHub y acceder al panel principal.
+
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <h5>
+
+                    Paso 2 — Crear un repositorio
+
+                </h5>
+
+                <p>
+
+                    Crear un nuevo repositorio donde se almacenará el proyecto.
+
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <h5>
+
+                    Paso 3 — Subir el proyecto
+
+                </h5>
+
+                <p>
+
+                    Agregar todos los archivos HTML, CSS, JavaScript e imágenes.
+
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <h5>
+
+                    Paso 4 — Configurar GitHub Pages
+
+                </h5>
+
+                <p>
+
+                    Desde Settings → Pages seleccionar la rama principal (main).
+
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <h5>
+
+                    Paso 5 — Publicar
+
+                </h5>
+
+                <p>
+
+                    Esperar unos minutos hasta que GitHub genere la URL pública del sitio.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- PASOS DETALLADOS -->
+
+    <div class="card-custom mt-5">
+
+        <h2>
+
+            <i class="bi bi-list-check text-danger"></i>
+
+            Pasos Detallados
+
+        </h2>
+
+        <div class="row mt-4">
+
+            <div class="col-md-6">
+
+                <ol>
+
+                    <li>Crear una cuenta en GitHub.</li>
+
+                    <li>Crear un repositorio nuevo.</li>
+
+                    <li>Subir el proyecto.</li>
+
+                    <li>Confirmar los cambios (Commit).</li>
+
+                    <li>Enviar los cambios (Push).</li>
+
+                </ol>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <ol start="6">
+
+                    <li>Ingresar a Settings.</li>
+
+                    <li>Abrir la sección Pages.</li>
+
+                    <li>Seleccionar la rama Main.</li>
+
+                    <li>Guardar la configuración.</li>
+
+                    <li>Abrir la URL generada.</li>
+
+                </ol>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CAPTURAS -->
+
+    <div class="card-custom mt-5">
+
+        <h2>
+
+            <i class="bi bi-images text-info"></i>
+
+            Capturas del Proceso
+
+        </h2>
+
+        <p>
+
+            Durante la demostración se recomienda incluir imágenes de las siguientes etapas:
+
+        </p>
+
+        <div class="row g-4 mt-4">
+
+            <div class="col-md-4">
+
+                <div class="card-info">
+
+                    <i class="bi bi-folder-plus display-3"></i>
+
+                    <h4>Repositorio</h4>
+
+                    <p>
+
+                        Creación del repositorio.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card-info">
+
+                    <i class="bi bi-upload display-3"></i>
+
+                    <h4>Subida</h4>
+
+                    <p>
+
+                        Archivos cargados correctamente.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card-info">
+
+                    <i class="bi bi-globe display-3"></i>
+
+                    <h4>Sitio Publicado</h4>
+
+                    <p>
+
+                        Página funcionando en GitHub Pages.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ERRORES -->
+
+    <div class="row mt-5">
+
+        <div class="col-lg-6">
+
+            <div class="card-custom">
+
+                <h2>
+
+                    <i class="bi bi-exclamation-circle-fill text-warning"></i>
+
+                    Errores Comunes
+
+                </h2>
+
+                <ul>
+
+                    <li>No subir el archivo index.html.</li>
+
+                    <li>Olvidar activar GitHub Pages.</li>
+
+                    <li>Rutas incorrectas de imágenes.</li>
+
+                    <li>Errores en nombres de carpetas.</li>
+
+                    <li>No esperar el tiempo de publicación.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+            <div class="card-custom">
+
+                <h2>
+
+                    <i class="bi bi-lightbulb-fill text-success"></i>
+
+                    Buenas Prácticas
+
+                </h2>
+
+                <ul>
+
+                    <li>Mantener una estructura organizada.</li>
+
+                    <li>Usar nombres claros para archivos.</li>
+
+                    <li>Realizar commits frecuentes.</li>
+
+                    <li>Probar el sitio antes del despliegue.</li>
+
+                    <li>Documentar cada actualización.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CHECKLIST -->
+
+    <div class="card-custom mt-5">
+
+        <h2>
+
+            <i class="bi bi-check2-square text-primary"></i>
+
+            Lista de Verificación
+
+        </h2>
+
+        <div class="row mt-4">
+
+            <div class="col-md-6">
+
+                <div class="form-check">
+
+                    <input class="form-check-input" type="checkbox" checked disabled>
+
+                    <label class="form-check-label">
+
+                        Proyecto terminado.
+
+                    </label>
+
+                </div>
+
+                <div class="form-check">
+
+                    <input class="form-check-input" type="checkbox" checked disabled>
+
+                    <label class="form-check-label">
+
+                        Archivos organizados.
+
+                    </label>
+
+                </div>
+
+                <div class="form-check">
+
+                    <input class="form-check-input" type="checkbox" checked disabled>
+
+                    <label class="form-check-label">
+
+                        index.html presente.
+
+                    </label>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="form-check">
+
+                    <input class="form-check-input" type="checkbox" checked disabled>
+
+                    <label class="form-check-label">
+
+                        GitHub Pages activado.
+
+                    </label>
+
+                </div>
+
+                <div class="form-check">
+
+                    <input class="form-check-input" type="checkbox" checked disabled>
+
+                    <label class="form-check-label">
+
+                        Sitio funcionando.
+
+                    </label>
+
+                </div>
+
+                <div class="form-check">
+
+                    <input class="form-check-input" type="checkbox" checked disabled>
+
+                    <label class="form-check-label">
+
+                        URL verificada.
+
+                    </label>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--=====================================
+TUTORIAL
+======================================-->
+
+<section id="tutorial" class="seccion fade-up">
+
+    <div class="text-center mb-5">
+
+        <span class="badge bg-success mb-3">
+
+            Guía Paso a Paso
+
+        </span>
+
+        <h1>
+
+            Tutorial para Publicar un Sitio en GitHub Pages
+
+        </h1>
+
+        <p class="subtitulo">
+
+            Aprende cómo publicar un sitio web estático utilizando GitHub Pages de forma sencilla.
+
+        </p>
+
+    </div>
+
+    <!-- INTRODUCCIÓN -->
+
+    <div class="card-custom">
+
+        <h2>
+
+            <i class="bi bi-book-half text-primary"></i>
+
+            Objetivo
+
+        </h2>
+
+        <p>
+
+            El siguiente procedimiento describe los pasos necesarios para publicar un sitio web estático utilizando GitHub Pages. Este proceso permite alojar páginas HTML, CSS y JavaScript de forma gratuita, aprovechando la infraestructura de GitHub para realizar despliegues automáticos.
+
+        </p>
+
+    </div>
+
+    <!-- TIMELINE -->
+
+    <div class="card-custom mt-5">
+
+        <h2>
+
+            <i class="bi bi-diagram-3-fill text-success"></i>
+
+            Proceso de Publicación
+
+        </h2>
+
+        <div class="timeline mt-5">
+
+            <div class="timeline-item">
+
+                <h5>
+
+                    Paso 1 — Crear una cuenta en GitHub
+
+                </h5>
+
+                <p>
+
+                    Registrarse en GitHub y acceder al panel principal.
+
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <h5>
+
+                    Paso 2 — Crear un repositorio
+
+                </h5>
+
+                <p>
+
+                    Crear un nuevo repositorio donde se almacenará el proyecto.
+
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <h5>
+
+                    Paso 3 — Subir el proyecto
+
+                </h5>
+
+                <p>
+
+                    Agregar todos los archivos HTML, CSS, JavaScript e imágenes.
+
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <h5>
+
+                    Paso 4 — Configurar GitHub Pages
+
+                </h5>
+
+                <p>
+
+                    Desde Settings → Pages seleccionar la rama principal (main).
+
+                </p>
+
+            </div>
+
+            <div class="timeline-item">
+
+                <h5>
+
+                    Paso 5 — Publicar
+
+                </h5>
+
+                <p>
+
+                    Esperar unos minutos hasta que GitHub genere la URL pública del sitio.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- PASOS DETALLADOS -->
+
+    <div class="card-custom mt-5">
+
+        <h2>
+
+            <i class="bi bi-list-check text-danger"></i>
+
+            Pasos Detallados
+
+        </h2>
+
+        <div class="row mt-4">
+
+            <div class="col-md-6">
+
+                <ol>
+
+                    <li>Crear una cuenta en GitHub.</li>
+
+                    <li>Crear un repositorio nuevo.</li>
+
+                    <li>Subir el proyecto.</li>
+
+                    <li>Confirmar los cambios (Commit).</li>
+
+                    <li>Enviar los cambios (Push).</li>
+
+                </ol>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <ol start="6">
+
+                    <li>Ingresar a Settings.</li>
+
+                    <li>Abrir la sección Pages.</li>
+
+                    <li>Seleccionar la rama Main.</li>
+
+                    <li>Guardar la configuración.</li>
+
+                    <li>Abrir la URL generada.</li>
+
+                </ol>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CAPTURAS -->
+
+    <div class="card-custom mt-5">
+
+        <h2>
+
+            <i class="bi bi-images text-info"></i>
+
+            Capturas del Proceso
+
+        </h2>
+
+        <p>
+
+            Durante la demostración se recomienda incluir imágenes de las siguientes etapas:
+
+        </p>
+
+        <div class="row g-4 mt-4">
+
+            <div class="col-md-4">
+
+                <div class="card-info">
+
+                    <i class="bi bi-folder-plus display-3"></i>
+
+                    <h4>Repositorio</h4>
+
+                    <p>
+
+                        Creación del repositorio.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card-info">
+
+                    <i class="bi bi-upload display-3"></i>
+
+                    <h4>Subida</h4>
+
+                    <p>
+
+                        Archivos cargados correctamente.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <div class="card-info">
+
+                    <i class="bi bi-globe display-3"></i>
+
+                    <h4>Sitio Publicado</h4>
+
+                    <p>
+
+                        Página funcionando en GitHub Pages.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ERRORES -->
+
+    <div class="row mt-5">
+
+        <div class="col-lg-6">
+
+            <div class="card-custom">
+
+                <h2>
+
+                    <i class="bi bi-exclamation-circle-fill text-warning"></i>
+
+                    Errores Comunes
+
+                </h2>
+
+                <ul>
+
+                    <li>No subir el archivo index.html.</li>
+
+                    <li>Olvidar activar GitHub Pages.</li>
+
+                    <li>Rutas incorrectas de imágenes.</li>
+
+                    <li>Errores en nombres de carpetas.</li>
+
+                    <li>No esperar el tiempo de publicación.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+            <div class="card-custom">
+
+                <h2>
+
+                    <i class="bi bi-lightbulb-fill text-success"></i>
+
+                    Buenas Prácticas
+
+                </h2>
+
+                <ul>
+
+                    <li>Mantener una estructura organizada.</li>
+
+                    <li>Usar nombres claros para archivos.</li>
+
+                    <li>Realizar commits frecuentes.</li>
+
+                    <li>Probar el sitio antes del despliegue.</li>
+
+                    <li>Documentar cada actualización.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- CHECKLIST -->
+
+    <div class="card-custom mt-5">
+
+        <h2>
+
+            <i class="bi bi-check2-square text-primary"></i>
+
+            Lista de Verificación
+
+        </h2>
+
+        <div class="row mt-4">
+
+            <div class="col-md-6">
+
+                <div class="form-check">
+
+                    <input class="form-check-input" type="checkbox" checked disabled>
+
+                    <label class="form-check-label">
+
+                        Proyecto terminado.
+
+                    </label>
+
+                </div>
+
+                <div class="form-check">
+
+                    <input class="form-check-input" type="checkbox" checked disabled>
+
+                    <label class="form-check-label">
+
+                        Archivos organizados.
+
+                    </label>
+
+                </div>
+
+                <div class="form-check">
+
+                    <input class="form-check-input" type="checkbox" checked disabled>
+
+                    <label class="form-check-label">
+
+                        index.html presente.
+
+                    </label>
+
+                </div>
+
+            </div>
+
+            <div class="col-md-6">
+
+                <div class="form-check">
+
+                    <input class="form-check-input" type="checkbox" checked disabled>
+
+                    <label class="form-check-label">
+
+                        GitHub Pages activado.
+
+                    </label>
+
+                </div>
+
+                <div class="form-check">
+
+                    <input class="form-check-input" type="checkbox" checked disabled>
+
+                    <label class="form-check-label">
+
+                        Sitio funcionando.
+
+                    </label>
+
+                </div>
+
+                <div class="form-check">
+
+                    <input class="form-check-input" type="checkbox" checked disabled>
+
+                    <label class="form-check-label">
+
+                        URL verificada.
+
+                    </label>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!--=====================================
+FAQ
+======================================-->
+
+<section id="faq" class="seccion fade-up">
+
+<div class="text-center mb-5">
+
+<span class="badge bg-warning text-dark mb-3">
+
+Ayuda
+
+</span>
+
+<h1>
+
+Preguntas Frecuentes
+
+</h1>
+
+<p class="subtitulo">
+
+Las dudas más comunes al utilizar GitHub Pages.
+
+</p>
+
+</div>
+
+<div class="accordion" id="faqAccordion">
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button class="accordion-button" data-bs-toggle="collapse" data-bs-target="#faq1">
+
+¿Qué es GitHub Pages?
+
+</button>
+
+</h2>
+
+<div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+
+<div class="accordion-body">
+
+Es un servicio gratuito de GitHub para publicar sitios web estáticos directamente desde un repositorio.
+
+</div>
+
+</div>
+
+</div>
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq2">
+
+¿Es completamente gratuito?
+
+</button>
+
+</h2>
+
+<div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+<div class="accordion-body">
+
+Sí. GitHub Pages ofrece alojamiento gratuito para proyectos estáticos.
+
+</div>
+
+</div>
+
+</div>
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq3">
+
+¿Puedo usar PHP o MySQL?
+
+</button>
+
+</h2>
+
+<div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+<div class="accordion-body">
+
+No. GitHub Pages únicamente ejecuta sitios estáticos (HTML, CSS y JavaScript).
+
+</div>
+
+</div>
+
+</div>
+
+<div class="accordion-item">
+
+<h2 class="accordion-header">
+
+<button class="accordion-button collapsed" data-bs-toggle="collapse" data-bs-target="#faq4">
+
+¿Cuánto tarda en publicarse un sitio?
+
+</button>
+
+</h2>
+
+<div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+
+<div class="accordion-body">
+
+Generalmente entre uno y cinco minutos después de activar GitHub Pages.
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--=====================================
+CONCLUSIONES
+======================================-->
+
+<section id="conclusiones" class="seccion fade-up">
+
+<div class="text-center mb-5">
+
+<span class="badge bg-success mb-3">
+
+Conclusiones
+
+</span>
+
+<h1>
+
+Conclusiones del Proyecto
+
+</h1>
+
+</div>
+
+<div class="card-custom">
+
+<h3>
+
+<i class="bi bi-check-circle-fill text-success"></i>
+
+Conclusión General
+
+</h3>
+
+<p>
+
+GitHub Pages demostró ser una plataforma eficiente, gratuita y fácil de utilizar para la publicación de sitios web estáticos. Su integración con GitHub permite automatizar el despliegue, facilitando el trabajo colaborativo y la administración del código fuente.
+
+</p>
+
+<p>
+
+Durante el desarrollo del proyecto se comprobó que esta herramienta resulta ideal para proyectos académicos, portafolios personales y documentación técnica, ya que elimina la necesidad de administrar servidores o contratar servicios de hosting.
+
+</p>
+
+</div>
+
+<div class="row mt-4">
+
+<div class="col-md-4">
+
+<div class="card-info">
+
+<i class="bi bi-lightning-charge-fill"></i>
+
+<h3>Rápido</h3>
+
+<p>
+
+Despliegue automático.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card-info">
+
+<i class="bi bi-lock-fill"></i>
+
+<h3>Seguro</h3>
+
+<p>
+
+HTTPS incorporado.
+
+</p>
+
+</div>
+
+</div>
+
+<div class="col-md-4">
+
+<div class="card-info">
+
+<i class="bi bi-cash-stack"></i>
+
+<h3>Gratuito</h3>
+
+<p>
+
+Sin costo alguno.
+
+</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--=====================================
+INTEGRANTES
+======================================-->
+
+<section id="integrantes" class="seccion fade-up">
+
+<div class="text-center mb-5">
+
+<span class="badge bg-primary mb-3">
+
+Grupo 5
+
+</span>
+
+<h1>
+
+Integrantes del Equipo
+
+</h1>
+
+</div>
+
+<div class="row g-4">
+
+<div class="col-lg-4">
+
+<div class="card-custom text-center">
+
+<i class="bi bi-person-circle display-1 text-primary"></i>
+
+<h3 class="mt-3">
+
+Integrante 1
+
+</h3>
+
+<p>
+
+Nombre Completo
+
+</p>
+
+<span class="badge bg-primary">
+
+Desarrollador
+
+</span>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="card-custom text-center">
+
+<i class="bi bi-person-circle display-1 text-success"></i>
+
+<h3 class="mt-3">
+
+Integrante 2
+
+</h3>
+
+<p>
+
+Nombre Completo
+
+</p>
+
+<span class="badge bg-success">
+
+Investigación
+
+</span>
+
+</div>
+
+</div>
+
+<div class="col-lg-4">
+
+<div class="card-custom text-center">
+
+<i class="bi bi-person-circle display-1 text-danger"></i>
+
+<h3 class="mt-3">
+
+Integrante 3
+
+</h3>
+
+<p>
+
+Nombre Completo
+
+</p>
+
+<span class="badge bg-danger">
+
+Documentación
+
+</span>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--=====================================
+FOOTER
+======================================-->
+
+<footer class="mt-5">
+
+<div class="card-custom text-center">
+
+<h3>
+
+<i class="bi bi-github"></i>
+
+GitHub Pages
+
+</h3>
+
+<p>
+
+Proyecto desarrollado para la materia Aplicaciones Web.
+
+</p>
+
+<p>
+
+Universidad • Grupo 5 • 2026
+
+</p>
+
+<hr>
+
+<p>
+
+Desarrollado utilizando HTML5, CSS3, Bootstrap 5 y JavaScript.
+
+</p>
+
+</div>
+
+</footer>
+
+</main>
+
+</div>
+
+<!-- Bootstrap -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- JavaScript -->
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>
